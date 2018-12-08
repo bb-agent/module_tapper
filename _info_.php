@@ -1,7 +1,7 @@
 <?
 $mod_name="tapper";
 $mod_version="1.1";
-$mod_path="/usr/share/fruitywifi/www/modules/$mod_name";
+$mod_path="/usr/share/blackbulb/www/modules/$mod_name";
 $mod_logs="$log_path/dnsmasq-tapper.log";
 $mod_logs_history="$mod_path/includes/logs/";
 $mod_logs_panel="disabled";
@@ -10,7 +10,7 @@ $mod_type="service";
 $mod_alias="Tapper";
 
 # EXEC
-$bin_danger = "/usr/share/fruitywifi/bin/danger";
+$bin_danger = "/usr/share/blackbulb/bin/danger";
 $bin_sudo = "/usr/bin/sudo";
 $bin_hostapd = "$mod_path/includes/hostapd";
 $bin_hostapd_cli = "$mod_path/includes/hostapd_cli";
@@ -25,7 +25,7 @@ $bin_rm = "/bin/rm";
 $bin_route = "/sbin/route";
 $bin_perl = "/usr/bin/perl";
 
-$bin_danger = "/usr/share/fruitywifi/bin/danger";
+$bin_danger = "/usr/share/blackbulb/bin/danger";
 $bin_killall = "/usr/bin/killall";
 $bin_ifconfig = "/sbin/ifconfig";
 $bin_iptables = "/sbin/iptables";
